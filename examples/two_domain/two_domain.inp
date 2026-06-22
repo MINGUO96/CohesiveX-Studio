@@ -1,0 +1,21 @@
+*Heading
+** Single-domain CPE4 example for intragranular cohesive insertion
+*Node
+1, 0.0, 0.0
+2, 1.0, 0.0
+3, 2.0, 0.0
+4, 0.0, 1.0
+5, 1.0, 1.0
+6, 2.0, 1.0
+*Element, type=CPE4
+1, 1, 2, 5, 4
+2, 2, 3, 6, 5
+*Solid Section, elset=ALL, material=M1
+,
+*Material, name=M1
+*Elastic
+1., 0.3
+*Step
+*Static
+0.1, 1.
+*End Step

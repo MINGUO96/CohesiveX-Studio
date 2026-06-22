@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "CohesiveX Studio"
+message: "If you use this software, please cite the associated SoftwareX article and this repository."
+type: software
+authors:
+  - name: "guomin"
+version: 1.0.0
+date-released: 2026-06-22
+license: BSD-3-Clause
+repository-code: "https://github.com/MINGUO96/CohesiveX-Studio"
+url: "https://github.com/MINGUO96/CohesiveX-Studio"
+keywords:
+  - Abaqus
+  - cohesive zone model
+  - finite element preprocessing
+  - user element
+  - grain boundary
+  - intragranular fracture
+  - Python
